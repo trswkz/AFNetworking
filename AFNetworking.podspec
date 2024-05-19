@@ -53,4 +53,5 @@ Pod::Spec.new do |s|
 
     ss.source_files = 'UIKit+AFNetworking'
   end
+  s.resource_bundle = { 'AFNetworking-PrivacyManifest' => 'AFNetworking/PrivacyInfo.xcprivacy' }
 end
